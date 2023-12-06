@@ -1,2 +1,2 @@
 # TimpRotation
-Code that I've used or put together during my rotation in Winston Timp's lab, Oct.-Dec 2023
+Code/Scripts that I've written during my rotation in Prof. Winston Timp's lab, Oct.-Dec 2023
