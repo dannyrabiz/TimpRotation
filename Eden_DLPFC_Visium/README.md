@@ -3,7 +3,7 @@ Project led by Hope Eden
 
 ### General Pipeline
 
-### Problems/Thoughs
+### Problems/Thoughts
 I initally used the Rockfish cluster to perform the step where I extract specific reads from Bam file and sort them into different files based on assigned cluster. 
 However, as the rest of the Timp lab uses their own servers I tried to re-write this script to be run on the servers. The script I came up with uses GNU parallel to 
 process many barcodes at the same time, nevertheless, it takes much longer to run that the previous script on the HPC (where I submitted a unique job for every single cluster 
