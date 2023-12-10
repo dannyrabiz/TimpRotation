@@ -3,6 +3,12 @@ Project led by Hope Eden
 
 ### General Pipeline
 
+### To Do:
+1. Find out of how to compare clusteres across samples
+2. How to flag false-positive novel isoforms
+3. Compare different isoform callers
+4. QC with Illumina data
+
 ### Problems/Thoughts
 ~~I initally used the Rockfish cluster to perform the step where I extract specific reads from Bam file and sort them into different files based on assigned cluster. 
 However, as the rest of the Timp lab uses their own servers I tried to re-write this script to be run on the servers. The script I came up with uses GNU parallel to 
