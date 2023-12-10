@@ -2,6 +2,8 @@
 Project led by Hope Eden 
 
 ### General Pipeline
+1. Generate readcount matrices (gene and transcript) with annotated barcodes using Nanoporetech's [sockeye](https://github.com/nanoporetech/sockeye) pipeline. **Note:** Hope added her own formatting step, so you'll need to run those as well in order for the the next commands to work using the files in this github.
+2. Create
 
 ### To Do:
 1. Find out of how to compare clusteres across samples
