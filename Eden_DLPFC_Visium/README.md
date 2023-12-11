@@ -19,8 +19,17 @@ Project led by Hope Eden
 2b. Run the BayesSpace Rscript. Make sure to specify A) transcripts or genes and B) the number of clusters.  
 
 ### 3. Create BAM file for each cluster
+Run the following command. Much faster and more efficient than previous strategies. 
 
+`. Create_Bam_Clusters.sh` 
 
+If running multiple samples will need to first create a similar file for paths to cluster assignment and Bam files etc. I merged the BAM files, but it is unlikley that it saves anytime. 
+
+### 4. Run isoform caller
+Here is the command and options I am using: 
+`stringtie $sample.bam -G gencode.v24.annotation.gtf -L -p 12 -o $sample.gtf`
+
+### 5. Differential Expression - EdgeR/DEseq2 or Seurat?
 
 ## To Do:
 1. Find out of how to compare clusteres across samples
