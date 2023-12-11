@@ -16,6 +16,9 @@ Project led by Hope Eden
 ```
 2b. Run the BayesSpace Rscript. Make sure to specify A) transcripts or genes and B) the number of clusters.  
 
+### 3. Create BAM file for each cluster
+
+
 
 ## To Do:
 1. Find out of how to compare clusteres across samples
