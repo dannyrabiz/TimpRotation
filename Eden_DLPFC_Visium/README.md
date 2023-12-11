@@ -1,6 +1,8 @@
 # Long-read sequencing spatial transcriptomics with Visium to characterize the Dorsal Lateral Pre-Frontal Cortex
 Project led by Hope Eden 
 
+![](https://github.com/dannyrabiz/TimpRotation/blob/main/Eden_DLPFC_Visium/Br8667_mid.png)
+![](https://github.com/dannyrabiz/TimpRotation/blob/main/Eden_DLPFC_Visium/Br6522_ant.png)
 ## General Pipeline
 ### 1. Run Sockeye
   Generate readcount matrices (gene and transcript) with annotated barcodes using Nanoporetech's [sockeye](https://github.com/nanoporetech/sockeye) pipeline. **Note:** Hope added her own formatting step, so you'll need to run those as well in order for the the next commands to work using the files in this github.
