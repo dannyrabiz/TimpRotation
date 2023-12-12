@@ -27,7 +27,8 @@ If running multiple samples will need to first create a similar file for paths t
 
 ### 4. Run isoform caller
 Here is the command and options I am using: 
-`stringtie $sample.bam -G gencode.v24.annotation.gtf -L -p 12 -o $sample.gtf`
+`stringtie input_bam -e -G gencode.v24.annotation.gtf -L -g 150 -p 24 -m 300 -o output_gtf -A output.GeneAbundance.txt`
+
 
 ### 5. Differential Expression - EdgeR/DEseq2 or Seurat?
 
