@@ -29,6 +29,7 @@ If running multiple samples will need to first create a similar file for paths t
 Here is the command and options I am using: 
 `stringtie input_bam -e -G gencode.v24.annotation.gtf -L -g 150 -p 24 -m 300 -o output_gtf -A output.GeneAbundance.txt`
 
+Or run the [Run_stringtie2.bash](https://github.com/dannyrabiz/TimpRotation/blob/main/Eden_DLPFC_Visium/Run_stringtie.bash) script to run on all samples/clusters. 
 
 ### 5. Differential Expression - EdgeR/DEseq2 or Seurat?
 
