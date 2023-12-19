@@ -33,7 +33,7 @@ set.seed(103)
 spe <- spatialCluster(spe, q=q, d=d, platform='Visium',
                         nrep=5000, gamma=3, save.chain=TRUE)
 labels <- dplyr::recode(spe$spatial.cluster, 1, 2, 3, 5, 8, 4, 7, 6, 9)
-#labels <- dplyr::recode(spe$spatial.cluster, 1, 2, 3, 5, 4, 7, 6)
+
 
 clusterPlot(spe, palette=NULL, size=0.05) +
   scale_fill_viridis_d(option = "A", labels = 1:9) +
