@@ -1,6 +1,8 @@
 # Measuring telomere length x sub-telomeric methylation using Nanopore sequqncing
 Project led by Dr. Carolina Montano 
 
+![](https://github.com/dannyrabiz/TimpRotation/blob/main/Montano_Telomere_Methylation/chromosomes41.png)
+
 ## General Pipeline
 ### 1. Generate pod5 files from fast5
 `pod5 convert fast5 path/to/file.fast5 -o output/allp5`
